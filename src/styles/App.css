@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main, form, .cat-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+select, button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.cat-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
